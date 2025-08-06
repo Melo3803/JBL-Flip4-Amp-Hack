@@ -122,13 +122,13 @@ Connect the wires according to the instructions above.
 
 Provide an audio signal input, and you'll get audio output from the original speaker outputs.
 
-
+---
 
 ## 📚 Related Links
 
 - [TPA3130D2 Datasheet (TI)](https://www.ti.com/product/TPA3130D2)
 - [Flip 4 teardown videos (YouTube)]
-- JBL Flip 4 Service Manual (You can found for JBL Flip 3 with some googling and its same as flip 4)
+- JBL Flip 4 Manuals (You can found for JBL Flip 3 with some googling and its same as flip 4)
 
 ---
 
