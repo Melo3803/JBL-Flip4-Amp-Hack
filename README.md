@@ -68,6 +68,7 @@ More info is avaible in photos and diagrams. The pins are too small for solderin
 
 There is capacitor named C733 in the board you can use its Positive side to inject
 +9-12V DC
+
 <img width="1536" height="2048" alt="DC Wiring" src="images/dcinput.png" />
 
 2 - SDZ pin Injecting
@@ -76,30 +77,35 @@ This pin is required for turning on the chip
 There is an resistor named R738 in the board that you can use for making SDZ pin HIGH
 I accidentally burned this resistor, so I used the test point after the resistor and connected an external 1k ohm resistor to +9V to +12V DC.
 So basically connect this pin to DC + Input with 1k resistor in series DC+ --- 1K OHM --- SDZ Pin
+
 <img width="1209" height="971" alt="SDZPin" src="images/sdzpin.png" />
 
 3- Right sound input positive Injecting
 
 There is a capacitor named C740 on the board. You can use it to inject the right channel audio signal (R+).
 I soldered the AUX R+ wire to this capacitor.
+
 <img width="831" height="737" alt="image" src="images/rpinput.png" />
 
 4- Left sound input positive Injecting
 
 There is a capacitor named C743 on the board. You can use it to inject the left channel audio signal (L+).
 I soldered the AUX L+ wire to this capacitor.
+
 <img width="582" height="729" alt="image" src="images/lpinput.png" />
 
 5- R/L Sound Negative Input Injecting
 
 There is a capacitor named C744 on the board. You can use it as the audio ground (AUX GND) for both L and R channels.
 I soldered the AUX GND wire to this capacitor.
+
 <img width="476" height="585" alt="image" src="images/nlninput.png" />
 
 6- Mute pin injection (Optional)
 
 There is a part labeled Q20 on the board. You can use this point to inject a mute signal to the chip.
 If you pull this pin HIGH, it mutes all outputs.
+
 <img width="668" height="581" alt="image" src="https://github.com/user-attachments/assets/2ccbabe8-b867-4630-bc5e-e8f09e927005" />
 
 7- GND and DC Negative Input
